@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Jeovane Santos Lopes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- SEO -->
+    <meta name="description" content="Portfólio pessoal de Jeovane Santos Lopes com projetos e habilidades em desenvolvimento web.">
+    <meta name="author" content="Jeovane Santos Lopes">
+    <meta name="keywords" content="portfólio, projetos, desenvolvimento web, HTML, JavaScript, PHP" />
+    <meta name="robots" content="index, follow"> 
+    <link rel="canonical" href="https://meusite.com" />
+
+    <!-- Open Graph -->
+    <meta property="og:url" content="https://meusite.com" /> 
+    <meta property="og:title" content="Portfólio de Jeovane Santos Lopes" /> 
+    <meta property="og:image" content="img/og_image.jpg" /> 
+    <meta property="og:description" content="Descubra os projetos e habilidades de Jeovane Santos Lopes, desenvolvedor técnico." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Portfólio de Jeovane Santos Lopes" />
+    <meta name="twitter:description" content="Explore os projetos e competências de Jeovane Santos Lopes." />
+    <meta name="twitter:image" content="img/og_image.jpg" />
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#Projetos" aria-label="Ir para seção de Projetos">Projetos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Contato" aria-label="Ir para seção de Contato">Contato</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Sobre" aria-label="Ir para seção Sobre Mim">Sobre Mim</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container my-5">
+        <div class="row justify-content-around">
+            <div class="col-md-4 align-self-center">
+                <div class="box1">
+                    A ideia é nunca perder a motivação para subir cada degrau rumo ao sucesso, por mais difícil que seja. E também não esquecer de agradecer pelas lições aprendidas em cada etapa da jornada.
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="img/image0_0.jpg" alt="Foto de apresentação" loading="lazy" style="max-width: 200px; border-radius: 100%;">
+            </div>
+        </div>
+        <!-- Sobre Mim -->
+        <div class="text-center mt-4" id="Sobre">
+            <div class="section-title">Sobre Mim</div>
+            <div class="box1">
+                Eu não sou o mais rápido para aprender, mas compenso isso com determinação e energia para enfrentar desafios. Tenho experiência em HTML, JavaScript e PHP e estou sempre ampliando minhas habilidades.
+            </div>
+        </div>
+    </section>
+
+    <!--cartoes-->
+    <div class="container my-5">
+        <div class="section-title">Linguagens</div>
+        <div class="row justify-content-center g-4">
+            <div class="col-md-3">
+                <div class="card text-center p-3">
+                    <div class="card-body">
+                        <img src="img/css-3.png" alt="Ícone CSS" title="CSS" loading="lazy">
+                        <p class="card-text">Com nível de iniciante, mas com muita garra e coragem para aprender.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-center p-3">
+                    <div class="card-body">
+                        <img src="img/html.png" alt="Ícone HTML" title="HTML" loading="lazy">
+                        <p class="card-text">Com nível de iniciante, mas com muita garra e coragem para aprender.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-center p-3">
+                    <div class="card-body">
+                        <img src="img/script-java.png" alt="Ícone JavaScript" title="JavaScript" loading="lazy">
+                        <p class="card-text">Com nível de iniciante, mas com muita garra e coragem para aprender.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-center p-3">
+                    <div class="card-body">
+                        <img src="img/logo-php.png" alt="Ícone PHP" title="PHP" loading="lazy">
+                        <p class="card-text">Com nível de iniciante, mas com muita garra e coragem para aprender.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- formulario -->
+    <section class="container my-5" id="Contato">
+        <div class="section-title">Entre em Contato</div>
+        <form id="contactForm" class="d-flex flex-column align-items-center">
+            <div class="mb-3 col-md-6">
+                <input type="text" class="form-control" id="nome" placeholder="Nome" required>
+            </div>
+            <div class="mb-3 col-md-6">
+                <input type="email" class="form-control" id="email" placeholder="Email" required>
+            </div>
+            <div class="mb-3 col-md-6">
+                <input type="tel" class="form-control" id="telefone" placeholder="Telefone" required>
+            </div>
+            <div class="mb-3 col-md-6">
+                <textarea class="form-control" id="mensagem" rows="4" placeholder="Mensagem" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-50" onclick="enviarWhatsApp()">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Projetos -->
+    <section class="container my-5" id="Projetos">
+        <div class="section-title">Meus Projetos</div>
+        <div class="row">
+            <div class="col-md-5">
+                <div class="box">
+                    <a href="https://primeirodemuitos.netlify.app" target="_blank" rel="noopener noreferrer" aria-label="Projeto one page">Projeto one page site</a>
+                    <br>
+                    <a href="https://github.com/jeovanesl/SiteOnePage.git" target="_blank" rel="noopener noreferrer" aria-label="Projeto one page">Projeto one page GitHub</a></div>
+                <div class="box my-2"><a href="https://github.com/jeovanesl/gerador-de-senha.git" target="_blank" rel="noopener noreferrer" aria-label="Projeto gerar senhas">Projeto gerar senhas</a></div>
+                <div class="box my-2"><a href="https://prucurarpaises.netlify.app" target="_blank" rel="noopener noreferrer" aria-label="Projeto procurar países em inglês">Projeto procurar países em inglês</a></div>
+            </div>
+            <div class="col-md-2 d-flex justify-content-center">
+                <div class="line-divider"></div>
+            </div>
+            <div class="col-md-4">
+                <div class="box"><a href="https://tarefas3.netlify.app" target="_blank" rel="noopener noreferrer" aria-label="Projeto lista de tarefas">Projeto lista de tarefas</a></div>
+                <div class="box my-2"><a href="https://github.com/jeovanesl/gerenciadors_de_notas.git" target="_blank" rel="noopener noreferrer" aria-label="Projeto gerar notas">Projeto gerar notas</a></div>
+                <div class="box my-2"><a href="https://calcular-imc-3-0.netlify.app" target="_blank" rel="noopener noreferrer" aria-label="Projeto calcular IMC">Projeto calcular IMC site</a><br>
+                <a href="https://github.com/jeovanesl/Imc-calculadora.git">Projeto calcular imc GitHub</a></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-3" id="rodape">
+        <p>&copy; 2024 Jeovane Santos Lopes. Todos os direitos reservados.</p>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://www.facebook.com/share/1B4hVCWNZR/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Acesse meu Facebook"><img src="img/logotipo-do-aplicativo-do-facebook.png" alt="Facebook" loading="lazy"></a></li>
+            <li class="list-inline-item"><a href="https://www.tiktok.com/@jeovanelopes02?_t=8sGnScqsnSf&_r=1" target="_blank" rel="noopener noreferrer" aria-label="TikTok" title="Acesse meu tiktok"><img src="img/tiktok.png" alt="TikTok" loading="lazy"></a></li>
+            <li class="list-inline-item"><a href="https://github.com/jeovanesl" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="Acesse meu GitHub"><img src="img/github.png" alt="GitHub" loading="lazy"></a></li>
+            <li class="list-inline-item"><a href="https://api.whatsapp.com/send?phone=5575999105877" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" title="Acesse meu WhatsApp"><img src="img/whatsapp.png" alt="WhatsApp" loading="lazy"></a></li>
+            <li class="list-inline-item"><a href="https://www.youtube.com/@jslgamer62" target="_blank" rel="noopener noreferrer" aria-label="YouTube" title="Acesse meu YouTube"><img src="img/youtube.png" alt="YouTube" loading="lazy"></a></li>
+        </ul>
+    </footer>
+
+    <!-- Plugins -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
