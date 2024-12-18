@@ -29,4 +29,4 @@ O portfólio é um site responsivo que utiliza HTML, CSS e JavaScript, com o sup
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/jeovanesl/portfolio.git
+   git clone https://github.com/jeovanesl/esportifolio-2.git
